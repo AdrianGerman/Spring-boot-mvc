@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXIST task (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description VARCHAR(200) NOT NULL,
+    date DATE NOT NULL
+);

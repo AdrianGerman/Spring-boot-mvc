@@ -28,7 +28,6 @@
       <h1>Formulario para agregar nuevas tareas</h1>
       <form th:action="@{/add-task}" method="post" class="w-50">
         <div class="mb-3">
-          <div>
             <label for="taskName" class="form-label">Nombre:</label>
             <input
               type="text"
@@ -40,8 +39,8 @@
             />
           </div>
 
-          <div></div>
 
+        <div class="mb-3">
           <label for="initDate" class="form-label">Fecha de inicio:</label>
           <input
             type="date"
